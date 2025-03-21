@@ -118,6 +118,7 @@
   $$
   N_{\text{site}} = \frac{32}{\text{Volume}_{\text{super}} (E - 24)}
   $$
+  
   $$
   N_C = \frac{\text{ITDOSCB}}{\text{Volume}_{\text{super}} (E - 24)}
   $$
