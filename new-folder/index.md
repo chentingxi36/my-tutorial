@@ -62,13 +62,7 @@
   \Delta H_f (\alpha, q) = E(\alpha, q) - E(\text{host}) + \sum n_i (\mu_i + E_i) + q[\varepsilon_{\text{VBM}} (\text{host}) + E_F]
   $$
 
-  - $E(\alpha, q)$：缺陷超胞的能量
-  - $E(\text{host})$：完美超胞的能量
-  - $mu_i$：元素化学势
-  - $E_i$：相关元素稳定单质的能量
-  - $n_i$：形成缺陷时移除或者添加的原子数目
-  - $E_F$：费米能级
-  - $\varepsilon_{\text{VBM}} (\text{host})$：完美超胞的价带顶
+  <img src="https://github.com/user-attachments/assets/48252b9b-4376-441e-bbf5-ae196d6c1568" width="600"/>
 
   <p align="center">  
     <img src="https://github.com/user-attachments/assets/53fd1be8-7750-458f-bbd6-11fc2fcfbef5" width="300"/>
