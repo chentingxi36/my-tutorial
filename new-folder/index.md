@@ -51,9 +51,7 @@
 ### 2.1 缺陷形成能与跃迁能级
 - **形成能（Formation Energy）**
 
-  $$
-  \Delta H_f (\alpha, q) = E(\alpha, q) - E(\text{host}) + \sum n_i (\mu_i + E_i) + q[\varepsilon_{\text{VBM}} (\text{host}) + E_F]
-  $$
+  $\Delta H_f (\alpha, q) = E(\alpha, q) - E(\text{host}) + \sum n_i (\mu_i + E_i) + q[\varepsilon_{\text{VBM}} (\text{host}) + E_F]$
 
   - $E(\alpha, q)$：缺陷超胞的能量
   - $E(\text{host})$：完美超胞的能量
