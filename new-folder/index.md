@@ -81,11 +81,15 @@ math: true
 
 - **受主能级**
   
-  $\varepsilon(0/q) = \left[ \varepsilon_D^\Gamma (0) - E(1s, \text{defect}) - (\varepsilon_{VBM}^\Gamma (\text{host}) - E(1s, \text{host})) \right] + \frac{E(\alpha, q) - (E(\alpha, 0) - q \varepsilon_D^k (0))}{-q}$
+  $$
+  \varepsilon(0/q) = \left[ \varepsilon_D^\Gamma (0) - E(1s, \text{defect}) - (\varepsilon_{VBM}^\Gamma (\text{host}) - E(1s, \text{host})) \right] + \frac{E(\alpha, q) - (E(\alpha, 0) - q \varepsilon_D^k (0))}{-q}
+  $$
 
 - **施主能级**
   
-  $\varepsilon_g^\Gamma (\text{host}) - \varepsilon(0/q) = -\left[ \varepsilon_D^\Gamma (0) - E(1s, \text{defect}) - (\varepsilon_{CBM}^\Gamma (\text{host}) - E(1s, \text{host})) \right] + \frac{E(\alpha, q) - (E(\alpha, 0) - q \varepsilon_D^k (0))}{q}$
+  $$
+  \varepsilon_g^\Gamma (\text{host}) - \varepsilon(0/q) = -\left[ \varepsilon_D^\Gamma (0) - E(1s, \text{defect}) - (\varepsilon_{CBM}^\Gamma (\text{host}) - E(1s, \text{host})) \right] + \frac{E(\alpha, q) - (E(\alpha, 0) - q \varepsilon_D^k (0))}{q}
+  $$
 
   <p align="center">
     <img src="https://github.com/user-attachments/assets/49e72fa8-6207-491e-8bb7-e45d910d1539" width="300"/>
@@ -105,11 +109,21 @@ math: true
   </p>
 - **举例-V_Ta**
 
-  $N_{\text{site}} = \frac{32}{\text{Volume}_{\text{super}} (E - 24)}$
+  $$
+  N_{\text{site}} = \frac{32}{\text{Volume}_{\text{super}} (E - 24)}
+  $$
   
-  $N_C = \frac{\text{ITDOSCB}}{\text{Volume}_{\text{super}} (E - 24)}$
+  $$
+  N_C = \frac{\text{ITDOSCB}}{\text{Volume}_{\text{super}} (E - 24)}
+  $
 
-  $N_V = \frac{\text{ITDOSVB}}{\text{Volume}_{\text{super}} (E - 24)}$      $g_p = 1$
+  $$
+  N_V = \frac{\text{ITDOSVB}}{\text{Volume}_{\text{super}} (E - 24)}
+  $
+
+  $$
+  g_p = 1
+  $$
 
   $N_{\text{site}}$: the density of possible sites on the defect form
   
@@ -149,13 +163,21 @@ math: true
   
 ### 2.5 费米能级钉扎
 
-  $n(\alpha, q) = N_0 e^{-\frac{\Delta H_f (\alpha, q)}{k_B T}}$
+  $$
+  n(\alpha, q) = N_0 e^{-\frac{\Delta H_f (\alpha, q)}{k_B T}}
+  $$
   
-  $p_0 + n_{\text{donor}} |q_{\text{donor}}| = n_0 + n_{\text{acceptor}} |q_{\text{acceptor}}|$
+  $$
+  p_0 + n_{\text{donor}} |q_{\text{donor}}| = n_0 + n_{\text{acceptor}} |q_{\text{acceptor}}|
+  $$
   
-  $\Delta H_1 = k_B T \ln \left( \frac{g_B \cdot N_{\text{site}}}{N_v} \right) + E_F$
+  $$
+  \Delta H_1 = k_B T \ln \left( \frac{g_B \cdot N_{\text{site}}}{N_v} \right) + E_F
+  $$
   
-  $\Delta H_2 = k_B T \ln \left( \frac{g_A \cdot N_{\text{site}}}{N_C} \right) + (E_g - E_F)$
+  $$
+  \Delta H_2 = k_B T \ln \left( \frac{g_A \cdot N_{\text{site}}}{N_C} \right) + (E_g - E_F)
+  $$
   
 
   <p align="center">
