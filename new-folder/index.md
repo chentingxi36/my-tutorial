@@ -95,36 +95,38 @@
     <img src="https://github.com/user-attachments/assets/49e72fa8-6207-491e-8bb7-e45d910d1539" width="300"/>
   </p>
 
-
-
 - **形成能计算示例**
+
   <p align="center">
     <img src="https://github.com/user-attachments/assets/b81fa468-bb69-40ce-9be7-e7b8f4266b33" width="800"/>  
   </p>
   
 ### 2.2 载流子浓度与费米能级
 - **载流子浓度公式**
- 
-  <img src="https://github.com/user-attachments/assets/9a8c2291-de1b-425c-8279-470f75e7c666" width="200"/>
 
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/9a8c2291-de1b-425c-8279-470f75e7c666" width="200"/>
+  </p>
+  
 - **举例-V<sub>Ta</sub>**
 
   $$
   N_{\text{site}} = \frac{32}{\text{Volume}_{\text{super}} (E - 24)}
-  $$  
+  $$
+  
   $$
   N_C = \frac{\text{ITDOSCB}}{\text{Volume}_{\text{super}} (E - 24)}
   $$
   
   $$
   N_V = \frac{\text{ITDOSVB}}{\text{Volume}_{\text{super}} (E - 24)}
-  $$  
+  $$
+  
   $$
   g_p = 1
   $$
 
   <img src="https://github.com/user-attachments/assets/4cf5fd8a-a82c-4fba-8e8b-96b771e2e62a" width="500"/>
-
 
 ### 2.3 位形坐标模型
 - **光学转变能级**：通过位形坐标图分析缺陷发光/吸收特性
@@ -134,7 +136,7 @@
   </p>
   
 - **马库斯理论**：描述非辐射复合过程的经典模型
-- 
+  
   <p align="center">
     <img src="https://github.com/user-attachments/assets/076d463a-5cca-4a3a-bff2-54b2386cbf0f" width="500"/>
   </p>
@@ -162,7 +164,6 @@
   $$
   \Delta H_2 = k_B T \ln \left( \frac{g_A \cdot N_{\text{site}}}{N_C} \right) + (E_g - E_F)
   $$
-  
 
   <p align="center">
     <img src="https://github.com/user-attachments/assets/5afc25ee-1112-4f14-9d34-b2aee017b0b3" width="700"/>
