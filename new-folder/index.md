@@ -1,3 +1,10 @@
+<script type="text/javascript" async
+  src="https://polyfill.io/v3/polyfill.min.js?features=es6">
+</script>
+<script type="text/javascript" async
+  id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 # 半导体缺陷计算专题教程
 
 **作者：陈霆熙**  
@@ -10,12 +17,6 @@
 
 ---
 
-<script type="text/javascript" async
-  src="https://polyfill.io/v3/polyfill.min.js?features=es6">
-</script>
-<script type="text/javascript" async
-  id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
 
 ## 目录
 1. [半导体与缺陷基础](#1-半导体与缺陷基础)  
