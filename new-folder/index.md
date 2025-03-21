@@ -118,19 +118,15 @@
   $$
   N_{\text{site}} = \frac{32}{\text{Volume}_{\text{super}} (E - 24)}
   $$
-  
   $$
   N_C = \frac{\text{ITDOSCB}}{\text{Volume}_{\text{super}} (E - 24)}
   $$
-
   $$
   N_V = \frac{\text{ITDOSVB}}{\text{Volume}_{\text{super}} (E - 24)}
   $$
-
   $$
   g_p = 1
   $$
-
   $N_{\text{site}}: the density of possible sites on the defect form$
   
   $g_q$: the degeneracy facto
