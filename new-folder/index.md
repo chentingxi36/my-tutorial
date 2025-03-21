@@ -62,7 +62,7 @@
   \Delta H_f (\alpha, q) = E(\alpha, q) - E(\text{host}) + \sum n_i (\mu_i + E_i) + q[\varepsilon_{\text{VBM}} (\text{host}) + E_F]
   $$
 
-  <img src="https://github.com/user-attachments/assets/48252b9b-4376-441e-bbf5-ae196d6c1568" width="600"/>
+  <img src="https://github.com/user-attachments/assets/48252b9b-4376-441e-bbf5-ae196d6c1568" width="300"/>
 
   <p align="center">  
     <img src="https://github.com/user-attachments/assets/53fd1be8-7750-458f-bbd6-11fc2fcfbef5" width="300"/>
