@@ -2,14 +2,15 @@
 
 **作者：陈霆熙**  
 **相关工具：[CPLAP化学势计算工具](https://github.com/jbuckeridge/cplap)**
-
+**相关工具：[缺陷相关文献与教程](https://github.com/chentingxi36/my-tutorial/tree/main/new-folder)**
+**参考书目：[材料缺陷的先进计算电子结构方法 [（瑞士）阿尔卡斯卡 编] 2015年.pdf]**
 ---
 
 ## 目录
 1. [半导体与缺陷基础](#1-半导体与缺陷基础)  
 2. [缺陷计算核心理论](#2-缺陷计算核心理论)  
 3. [缺陷计算实践流程](#3-缺陷计算实践流程)  
-4. [进阶主题与新发展](#4-进阶主题与新发展)  
+4. [缺陷计算新发展](#4-缺陷计算新发展)  
 
 ---
 
@@ -140,9 +141,11 @@
 ### 2.5 费米能级钉扎
 
   $n(\alpha, q) = N_0 e^{-\frac{\Delta H_f (\alpha, q)}{k_B T}}$
+  
   $p_0 + n_{\text{donor}} |q_{\text{donor}}| = n_0 + n_{\text{acceptor}} |q_{\text{acceptor}}|$
   
   $\Delta H_1 = k_B T \ln \left( \frac{g_B \cdot N_{\text{site}}}{N_v} \right) + E_F$
+  
   $\Delta H_2 = k_B T \ln \left( \frac{g_A \cdot N_{\text{site}}}{N_C} \right) + (E_g - E_F)$
   
 
@@ -181,44 +184,48 @@
 
 ### 3.3 形成能与跃迁能级计算
 1. **中性缺陷计算** 
-   ```bash
+   <pre><code>
    # INCAR关键参数
    grep TOTEN OUTCAR        # 提取总能量
    grep "1s" OUTCAR         # 提取1s轨道能量（用于能级对齐）
-2. **带电缺陷计算**
+   </code></pre>
+    <p align="center">
+      <img src="https://github.com/user-attachments/assets/96b30f9b-d982-4dc9-8424-2ea21085e36b" width="500"/>
+    </p>
+
+   
+2. **相关参数获取**
 修改NELECT参数模拟不同电荷态：
-   ```bash
-   # INCAR关键参数
-   q=+1 → NELECT=690（原为691）
-   q=+2 → NELECT=689
-### 3.3 示例：Vₙ缺陷分析
-# 参数计算示例
-N_site = 32 / (Volume_supercell * 1e-24)  # 单位：cm⁻³
-g_q = 1                                  # 简并因子
-n0 = ITDOS_CB / (Volume_supercell * 1e-24)  # 导带载流子浓度
+  <pre><code>
+  # INCAR关键参数
+  q=+1 → NELECT=690（原为691）
+  q=+2 → NELECT=689
+  </code></pre>
+
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/8f21696e-9cdf-4f7a-a90e-ae035e5edcf1" width="800"/>
+  </p>
+
+
+3. **形成能具体计算**   
+
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/bdcf5380-fb65-45dc-93cb-db19919bb33f" width="600"/>
+  </p>
+
+4. **电离能具体计算**
+   
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/708cf7b8-987f-489e-b20a-7af95357640e" width="600"/>
+  </p>
 
 ---
 
-## 4. 进阶主题与新发展
-### 4.1 环境因素影响
-1. **温度修正**  
-声子散射对形成能和跃迁能级的修正公式
-2. **光照调控**
-光激发载流子改变缺陷电荷态，需结合非平衡格林函数方法计算
-3. **应变工程**
-拉伸/压缩应变调控缺陷形成能（如GaN薄膜中Vₙ形成能降低10%）
-### 4.2 非绝热动力学计算
-结合含时密度泛函理论（TDDFT）研究载流子弛豫过程
-### 4.3 合金化固溶体缺陷
-### 挑战
-多元素体系（如InₓGa₁₋ₓN）中缺陷行为的复杂性。
-解决方案：
-机器学习辅助高通量筛选
-### 4.4 未来方向
-1. **高通量计算** 
-自动化缺陷数据库构建（基于Materials Project API）
-2. **多尺度模拟**
-从原子尺度（DFT）到器件尺度（TCAD）的跨尺度建模流程
+## 4. 缺陷计算新发展
+
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/f203a84e-d510-4c4e-89c5-4f8d413842d7" width="600"/>
+  </p>
 
 
 版权声明
