@@ -105,7 +105,7 @@
 - **载流子浓度公式**
 
   <p align="center">
-    <img src="https://github.com/user-attachments/assets/9a8c2291-de1b-425c-8279-470f75e7c666" width="400"/>
+    <img src="https://github.com/user-attachments/assets/9a8c2291-de1b-425c-8279-470f75e7c666" width="300"/>
   </p>
   
 - **举例-V<sub>Ta</sub>**
@@ -219,7 +219,6 @@
   q=+1 → NELECT=690（原为691）
   q=+2 → NELECT=689
   </code></pre>
-
   <p align="center">
     <img src="https://github.com/user-attachments/assets/8f21696e-9cdf-4f7a-a90e-ae035e5edcf1" width="800"/>
   </p>
