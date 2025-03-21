@@ -1,8 +1,11 @@
 半导体缺陷计算专题教程
 
 **作者：陈霆熙**  
+
 **相关工具：[CPLAP化学势计算工具](https://github.com/jbuckeridge/cplap)**
+
 **相关工具：[缺陷相关文献与教程](https://github.com/chentingxi36/my-tutorial/tree/main/new-folder)**
+
 **参考书目：[材料缺陷的先进计算电子结构方法 [（瑞士）阿尔卡斯卡 编] 2015年.pdf]**
 ---
 
