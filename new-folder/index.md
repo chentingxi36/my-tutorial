@@ -105,7 +105,7 @@
 - **载流子浓度公式**
 
   <p align="center">
-    <img src="https://github.com/user-attachments/assets/9a8c2291-de1b-425c-8279-470f75e7c666" width="200"/>
+    <img src="https://github.com/user-attachments/assets/9a8c2291-de1b-425c-8279-470f75e7c666" width="400"/>
   </p>
   
 - **举例-V<sub>Ta</sub>**
@@ -185,12 +185,12 @@
    # 缺陷超晶胞
    ISIF = 2   # 优化原子
    NELECT = NELECT(supercell)±q
-   </code></pre>
-   #举例
+   # 举例
    对于V<sub>N</sub>缺陷，不加电子，grep NELECT OUTCAR，得到NELECT=691
    
    考虑q=+1、+2、+3的情况，则NELECT分别为690、689、688
-
+   </code></pre>
+   
 ### 3.2 化学势计算
 1. **确定材料中可能的竞争物种（如Si、SiO₂、O₂）**  
 2. **构建线性规划方程组求解化学势范围** 
