@@ -123,7 +123,7 @@
   g_p = 1
   $$
 
-  <img src="https://github.com/user-attachments/assets/4cf5fd8a-a82c-4fba-8e8b-96b771e2e62a" width="400"/>
+  <img src="https://github.com/user-attachments/assets/4cf5fd8a-a82c-4fba-8e8b-96b771e2e62a" width="500"/>
 
 
 ### 2.3 位形坐标模型
@@ -176,7 +176,7 @@
 1. **超胞构建**  
    - 使用VASP构建含缺陷的超胞（如`POSCAR`中删除原子模拟空位）。  
 2. **结构优化**  
-   ```bash
+   <pre><code>
    # 原胞
    ISIF = 3   # 优化原子与晶格
    # 超晶胞
@@ -184,8 +184,10 @@
    # 缺陷超晶胞
    ISIF = 2   # 优化原子
    NELECT = NELECT(supercell)±q
+   </code></pre>
    #举例
    对于VN缺陷，不加电子，grep NELECT OUTCAR，得到NELECT=691
+   
    考虑q=+1、+2、+3的情况，则NELECT分别为690、689、688
 
 ### 3.2 化学势计算
@@ -221,7 +223,6 @@
     <img src="https://github.com/user-attachments/assets/8f21696e-9cdf-4f7a-a90e-ae035e5edcf1" width="800"/>
   </p>
 
-
 3. **形成能具体计算**   
 
   <p align="center">
@@ -241,7 +242,6 @@
   <p align="center">
     <img src="https://github.com/user-attachments/assets/f203a84e-d510-4c4e-89c5-4f8d413842d7" width="600"/>
   </p>
-
 
 版权声明
 本文档采用 CC BY-NC-SA 4.0 协议，转载需注明作者与来源。
