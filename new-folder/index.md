@@ -62,7 +62,7 @@
   \Delta H_f (\alpha, q) = E(\alpha, q) - E(\text{host}) + \sum n_i (\mu_i + E_i) + q[\varepsilon_{\text{VBM}} (\text{host}) + E_F]
   $$
 
-  <img src="https://github.com/user-attachments/assets/48252b9b-4376-441e-bbf5-ae196d6c1568" width="300"/>
+  <img src="https://github.com/user-attachments/assets/48252b9b-4376-441e-bbf5-ae196d6c1568" width="400"/>
 
   <p align="center">  
     <img src="https://github.com/user-attachments/assets/53fd1be8-7750-458f-bbd6-11fc2fcfbef5" width="300"/>
@@ -122,22 +122,8 @@
   $$
   g_p = 1
   $$
-  
-  $N_{\text{site}}$: the density of possible sites on the defect form
-  
-  $g_q$: the degeneracy facto
-  
-  k$B$: Boltzmann constant
-  
-  T: the temperature
-  
-  $n_0$: the density of free electron carriers
-  
-  $p_0$: the density of free hole carriers
-  
-  $N_C$: the effective density of states at the conduction band edges
-  
-  $N_V$: the effective density of states at the valence band edges
+
+  <img src="https://github.com/user-attachments/assets/4cf5fd8a-a82c-4fba-8e8b-96b771e2e62a" width="400"/>
 
 
 ### 2.3 位形坐标模型
