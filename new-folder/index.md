@@ -128,6 +128,10 @@
 
   <img src="https://github.com/user-attachments/assets/4cf5fd8a-a82c-4fba-8e8b-96b771e2e62a" width="500"/>
 
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/834b76a8-a983-4b65-82d9-99aefe5d03e4" width="300"/>
+  </p>
+
 ### 2.3 位形坐标模型
 - **光学转变能级**：通过位形坐标图分析缺陷发光/吸收特性
 
