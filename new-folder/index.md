@@ -104,10 +104,10 @@
   
 ### 2.2 载流子浓度与费米能级
 - **载流子浓度公式**
-  <p align="center">
-    <img src="https://github.com/user-attachments/assets/9a8c2291-de1b-425c-8279-470f75e7c666" width="200"/>
-  </p>
-- **举例-V_Ta**
+ 
+  <img src="https://github.com/user-attachments/assets/9a8c2291-de1b-425c-8279-470f75e7c666" width="200"/>
+
+- **举例-V<sub>Ta</sub>**
 
   $$
   N_{\text{site}} = \frac{32}{\text{Volume}_{\text{super}} (E - 24)}
@@ -186,7 +186,7 @@
    NELECT = NELECT(supercell)±q
    </code></pre>
    #举例
-   对于VN缺陷，不加电子，grep NELECT OUTCAR，得到NELECT=691
+   对于V<sub>N</sub>缺陷，不加电子，grep NELECT OUTCAR，得到NELECT=691
    
    考虑q=+1、+2、+3的情况，则NELECT分别为690、689、688
 
